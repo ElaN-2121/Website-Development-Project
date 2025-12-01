@@ -9,7 +9,7 @@ The project is fully built using **HTML and CSS only**, designed and developed c
 
 This portfolio showcases:
 - A fictional software engineer persona  
-- A clean **black & orange** theme  
+- A clean **black & green** theme  
 - Multiple pages with consistent styling  
 - A responsive layout built without JavaScript  
 
@@ -26,9 +26,8 @@ The goal of this project is to practice:
 
 - **Home** – Hero section, introduction  
 - **About** – Biography and background  
-- **Projects (2 pages)** – Featured work, project cards  
-- **Resume / CV** – Skills, experience, education  
-- **Testimonials** – Quotes from hypothetical colleagues  
+- **Projects** – Featured work, project cards  
+- **Resume / CV** – Skills, experience, education
 - **Contact** – Simple contact section (non-functional)  
 
 ---
@@ -36,8 +35,8 @@ The goal of this project is to practice:
 ## 🎨 Theme & Design
 
 - **Primary Colors:**  
-  - Black (`#000000`)  
-  - Orange (`#FF7A00`)  
+  - Black 
+  - Green   
 - **Design Tool:** Figma (wireframing & UI design finalized before coding) 
 
 ---
@@ -50,8 +49,8 @@ The goal of this project is to practice:
 - **Elnathan Nigussie — CSS / UI Design Lead**  
   Created Figma design, implemented styling, responsiveness, and visual polish.
 
-- **Iman Belete — Content & Assets Lead**  
-  Wrote fictional content, prepared assets, and inserted final text/images.
+- **Iman Belete — UI Designer and Content & Assets Lead**  
+  Developed high fidelity prototype from wireframes, wrote fictional content, prepared assets, and inserted final text/images.
 
 ---
 
