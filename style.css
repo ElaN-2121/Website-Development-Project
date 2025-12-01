@@ -394,3 +394,50 @@ body{
     text-align: center;
     margin-bottom: 40px;
 }
+
+/*Resume Page*/
+.resume-section{
+    width:90%;
+    margin:60px auto;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+.resume-block{
+    background:rgba(255, 255, 255, 0.05);
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 140, 0.05);
+    transition: 0.3s ease;
+}
+.resume-block:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 25px rgba(0, 255, 150, 0.15);
+}
+.resume-title{
+    font-size: 1.4rem;
+    color:#00ff9d;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.resume-content{
+    font-size:1rem;
+    line-height: var(--line-height);
+    color:#eaf0f0;
+}
+.placeholder-block{
+    height:150px;
+    background:rgba(0, 255, 140, 0.05);
+    border-radius: 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color:#96d0a8;
+}
+.resume-section .nav-button{
+    align-self:center;
+    padding: 14px 36px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
