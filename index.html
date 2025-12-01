@@ -2,49 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Elman Bez Portfolio</title>
+
+  <!-- Link to main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Link to favicon -->
+  <link rel="icon" type="image/png" href="Assets/favicon.png">
+
+  <!-- Link to font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <nav>
-    <div class="logo" aria-label="Site Logo">[Logo]</div>
-    <ul>
-      <li><a href="index.html" aria-current="page">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="projects.html">PROJECTS</a></li>
-      <li><a href="resume.html">RESUME</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-  </nav>
-</header>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo" aria-label="Site Logo">
+        <img src="Assets/logo.png" alt="Site Logo" class="logo-img">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link" aria-current="page">HOME</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+        <li><a href="resume.html" class="nav-link">RESUME</a></li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
+  <main class="main-content">
 
-  <section aria-label="Hero Section and Introduction">
-    <div>[Large Placeholder for Hero Image]</div>
-    <div>[Large Placeholder for Introduction Text]</div>
-    <div>
-      <button>Download Resume</button>
-      <a href="projects.html"><button>View Projects</button></a>
-    </div>
-  </section>
+    <section class="hero-section" aria-label="Hero Section and Introduction">
+      <img src="Assets/hero-placeholder.png" alt="Hero Image" class="hero-image">
+      <div class="hero-text">[Large Placeholder for Introduction Text]</div>
+      <div class="hero-buttons">
+        <button class="nav-button">Download Resume</button>
+        <a href="projects.html"><button class="nav-button">View Projects</button></a>
+      </div>
+    </section>
 
-  <section aria-label="Featured Project Preview">
-    <h2>FEATURED PROJECT PREVIEW</h2>
-    <div>
-      <div>[Project Image 1]<br /><a href="projects.html"><button>VIEW MORE</button></a></div>
-      <div>[Project Image 2]<br /><a href="projects.html"><button>VIEW MORE</button></a></div>
-      <div>[Project Image 3]<br /><a href="projects.html"><button>VIEW MORE</button></a></div>
-      <div>[Project Image 4]<br /><a href="projects.html"><button>VIEW MORE</button></a></div>
-      <div>[Project Image 5]<br /><a href="projects.html"><button>VIEW MORE</button></a></div>
-    </div>
-  </section>
-</main>
+    <section class="featured-projects" aria-label="Featured Project Preview">
+      <h2 class="section-title">FEATURED PROJECT PREVIEW</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <img src="Assets/project1.png" alt="Project 1" class="project-img"><br />
+          <a href="projects.html"><button class="nav-button">View More</button></a>
+        </div>
+        <div class="project-item">
+          <img src="Assets/project2.png" alt="Project 2" class="project-img"><br />
+          <a href="projects.html"><button class="nav-button">View More</button></a>
+        </div>
+        <div class="project-item">
+          <img src="Assets/project3.png" alt="Project 3" class="project-img"><br />
+          <a href="projects.html"><button class="nav-button">View More</button></a>
+        </div>
+        <div class="project-item">
+          <img src="Assets/project4.png" alt="Project 4" class="project-img"><br />
+          <a href="projects.html"><button class="nav-button">View More</button></a>
+        </div>
+        <div class="project-item">
+          <img src="Assets/project5.png" alt="Project 5" class="project-img"><br />
+          <a href="projects.html"><button class="nav-button">View More</button></a>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2024 Elman Bez | Fictional Portfolio Project</p>
-</footer>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 Elman Bez | Fictional Portfolio Project</p>
+  </footer>
 
 </body>
 </html>

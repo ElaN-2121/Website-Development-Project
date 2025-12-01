@@ -2,60 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects - Elman Bez Portfolio</title>
+
+  <!-- Link to main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Link to favicon -->
+  <link rel="icon" type="image/png" href="Assets/favicon.png">
+
+  <!-- Link to font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <nav>
-    <div class="logo" aria-label="Site Logo">[Logo]</div>
-    <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="projects.html" aria-current="page">PROJECTS</a></li>
-      <li><a href="resume.html">RESUME</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-  </nav>
-</header>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo" aria-label="Site Logo">
+        <img src="Assets/logo.png" alt="Site Logo" class="logo-img">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li><a href="projects.html" class="nav-link" aria-current="page">PROJECTS</a></li>
+        <li><a href="resume.html" class="nav-link">RESUME</a></li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
+  <main class="main-content">
 
-  <h1>MY PROJECTS</h1>
+    <h1 class="page-title">MY PROJECTS</h1>
 
-  <section aria-label="Project List">
-    <article>
-      <div>[Project Image 1]</div>
-      <h2>Project 1</h2>
-      <p>Project 1 description line 1<br />Project 1 description line 2</p>
-    </article>
+    <section class="projects-section" aria-label="Project List">
+      <article class="project-item">
+        <img src="Assets/project1.png" alt="Project 1 Image" class="project-image">
+        <h2 class="project-title">Project 1</h2>
+        <p class="project-description">Project 1 description line 1<br />Project 1 description line 2</p>
+      </article>
 
-    <article>
-      <div>[Project Image 2]</div>
-      <h2>Project 2</h2>
-      <p>Project 2 description line 1<br />Project 2 description line 2</p>
-    </article>
+      <article class="project-item">
+        <img src="Assets/project2.png" alt="Project 2 Image" class="project-image">
+        <h2 class="project-title">Project 2</h2>
+        <p class="project-description">Project 2 description line 1<br />Project 2 description line 2</p>
+      </article>
 
-    <article>
-      <div>[Project Image 3]</div>
-      <h2>Project 3</h2>
-      <p>Project 3 description line 1<br />Project 3 description line 2</p>
-    </article>
+      <article class="project-item">
+        <img src="Assets/project3.png" alt="Project 3 Image" class="project-image">
+        <h2 class="project-title">Project 3</h2>
+        <p class="project-description">Project 3 description line 1<br />Project 3 description line 2</p>
+      </article>
 
-    <article>
-      <div>[Project Image 4]</div>
-      <h2>Project 4</h2>
-      <p>Project 4 description line 1<br />Project 4 description line 2</p>
-    </article>
-  </section>
+      <article class="project-item">
+        <img src="Assets/project4.png" alt="Project 4 Image" class="project-image">
+        <h2 class="project-title">Project 4</h2>
+        <p class="project-description">Project 4 description line 1<br />Project 4 description line 2</p>
+      </article>
+    </section>
 
-  <a href="more-projects.html" role="button"><button>View More</button></a>
+    <div class="more-projects-button">
+      <a href="more-projects.html"><button class="nav-button">View More</button></a>
+    </div>
 
-</main>
+  </main>
 
-<footer>
-  <p>© 2024 Elman Bez | Fictional Portfolio Project</p>
-</footer>
+  <footer class="site-footer">
+    <p>© 2024 Elman Bez | Fictional Portfolio Project</p>
+  </footer>
 
 </body>
 </html>

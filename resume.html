@@ -1,55 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume - Elman Bez Portfolio</title>
+
+  <!-- Link to main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Link to favicon -->
+  <link rel="icon" type="image/png" href="Assets/favicon.png">
+
+  <!-- Link to font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <nav>
-    <div class="logo" aria-label="Site Logo">[Logo]</div>
-    <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="projects.html">PROJECTS</a></li>
-      <li><a href="resume.html" aria-current="page">RESUME</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-  </nav>
-</header>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo" aria-label="Site Logo">
+        <img src="Assets/logo.png" alt="Site Logo" class="logo-img">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+        <li><a href="resume.html" class="nav-link" aria-current="page">RESUME</a></li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
+  <main class="main-content">
 
-  <section aria-label="Resume Content">
-    <div>[Placeholder Block]</div>
+    <section class="resume-section" aria-label="Resume Content">
 
-    <h2>SUMMARY</h2>
-    <div>[Summary Content]</div>
+      <div class="placeholder-block">
+        [Placeholder Block]
+      </div>
 
-    <h2>EDUCATION</h2>
-    <div>[Education Details]</div>
+      <div class="resume-block">
+        <h2 class="resume-title">SUMMARY</h2>
+        <div class="resume-content">[Summary Content]</div>
+      </div>
 
-    <h2>EXPERIENCE</h2>
-    <div>[Experience Details]</div>
+      <div class="resume-block">
+        <h2 class="resume-title">EDUCATION</h2>
+        <div class="resume-content">[Education Details]</div>
+      </div>
 
-    <h2>SKILLS</h2>
-    <div>[Skills Details]</div>
+      <div class="resume-block">
+        <h2 class="resume-title">EXPERIENCE</h2>
+        <div class="resume-content">[Experience Details]</div>
+      </div>
 
-    <h2>ACHIEVEMENTS & CERTIFICATIONS</h2>
-    <div>[Achievements and Certifications]</div>
+      <div class="resume-block">
+        <h2 class="resume-title">SKILLS</h2>
+        <div class="resume-content">[Skills Details]</div>
+      </div>
 
-    <h2>INTERESTS & PASSION</h2>
-    <div>[Interests and Passion]</div>
-  </section>
-  <br>
-  <button>Download Resume</button>
-</main>
+      <div class="resume-block">
+        <h2 class="resume-title">ACHIEVEMENTS & CERTIFICATIONS</h2>
+        <div class="resume-content">[Achievements and Certifications]</div>
+      </div>
 
-<footer>
-  <p>© 2024 Elman Bez | Fictional Portfolio Project</p>
-</footer>
+      <div class="resume-block">
+        <h2 class="resume-title">INTERESTS & PASSION</h2>
+        <div class="resume-content">[Interests and Passion]</div>
+      </div><br>
+      <button class="nav-button">Download Resume</button>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 Elman Bez | Fictional Portfolio Project</p>
+  </footer>
 
 </body>
 </html>
