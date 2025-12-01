@@ -480,3 +480,138 @@ body{
     border-color: #00ff9d;
     box-shadow:0 0 10px #09b634;
 }
+
+
+/*Responsive Design*/
+@media (max-width:992px){
+    .nav-links{
+        gap:25px;
+    }
+    .hero-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-left{
+        width:100%;
+    }
+    .hero-image{
+        width:260px;
+    }
+    .projects-section{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .testimonials-list{
+        gap:25px;
+    }
+    .contact-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-form{
+        max-width: 100%;
+    }
+    .resume-section{
+        width:95%;
+        gap:30px;
+    }
+    .resume-title{
+        font-size: 1.25rem;
+    }
+    .resume-content{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        gap:20px;
+    }
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:20px;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+    .hero-desc{
+        font-size: 20px;
+    }
+    .project-item{
+        width:90%;
+    }
+    .testimonial-item{
+        width:90%;
+    }
+    .skills-list{
+        gap:20px;
+    }
+    .resume-section{
+        gap:25px;
+    }
+    .resume-block{
+        padding: 20px 18px;
+    }
+    .resume-title{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .resume-content{
+        font-size: 0.92rem;
+        text-align: center;
+    }
+    .resume-section .nav-button{
+        width:100%;
+        max-width: 300px;
+    }
+}
+@media (max-width: 576px){
+    body{
+        padding: 0 10px;
+    }
+    .section-title{
+        font-size: 1.5rem;
+    }
+    .hero-buttons{
+        flex-direction: column;
+        gap:15px;
+    }
+    .hero-image{
+        width:230px;
+    }
+    .skill-item{
+        width:140px;
+        padding:15px;
+    }
+    .biography-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bio-image{
+        width:85%;
+    }
+    .contact-list .contact-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .resume-section{
+        width:100%;
+        gap:25px;
+    }
+    .resume-block{
+        padding: 18px 15px;
+        border-radius: 10px;
+    }
+    .resume-title{
+        font-size: 1.1rem;
+    }
+    .resume-content{
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    .placeholder-block{
+        height:10px;
+        font-size:0.9rem ;
+    }
+}
