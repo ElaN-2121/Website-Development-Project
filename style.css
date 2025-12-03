@@ -443,8 +443,13 @@ body {
 }
 
 /*Contact Me Page*/
+.social-links {
+  display: flex;
+  align-items: center;
+}
 .social-links img.social-icon {
-  width: 35px;
+  padding: 0 5px;
+  margin-top: 10px;
   margin-right: 10px;
   transition: transform 0.3s ease, filter 0.3s ease;
   cursor: pointer;
@@ -456,17 +461,25 @@ body {
 .contact-container {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
   gap: 50px;
   width: 90%;
   margin: 60px auto;
   flex-wrap: wrap;
 }
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
 .contact-item img {
-  background: var(--button-color);
-  border-radius: 100%;
   padding: 5px;
   width: 30px;
   height: 30px;
+}
+.contact-section h1 {
+  color: var(--button-color);
 }
 .contact-section,
 .contact-form-section {
@@ -481,14 +494,17 @@ body {
   margin: auto;
   box-shadow: 0 0 20px rgba(0, 255, 140, 0.05);
 }
+.contact-form h1 {
+  color: var(--button-color);
+}
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #09b634;
-  margin-bottom: 15px;
-  background: rgba(255, 2555, 255, 0.1);
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid #09b634;
+  background: none;
+  margin-bottom: 25px;
   color: #eaf0f0;
   font-size: 1rem;
 }
@@ -496,7 +512,6 @@ body {
 .contact-form textarea:focus {
   outline: none;
   border-color: #00ff9d;
-  box-shadow: 0 0 10px #09b634;
 }
 
 /*Responsive Design*/
